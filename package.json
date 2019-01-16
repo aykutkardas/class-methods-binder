@@ -34,11 +34,11 @@
     "url": "git+https://github.com/aykutkardas/typescript-starter-kit.git"
   },
   "keywords": [
-    "typescript",
-    "starter",
-    "kit",
-    "unit",
-    "test"
+    "class",
+    "method",
+    "bind",
+    "es6",
+    "oop"
   ],
   "bugs": {
     "url": "https://github.com/aykutkardas/typescript-starter-kit/issues"
