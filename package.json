@@ -2,7 +2,7 @@
   "name": "class-methods-binder",
   "version": "1.0.0",
   "description": "A way to bind the methods into class.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "cross-env TS_NODE_COMPILER_OPTIONS='{ \"module\": \"commonjs\" }' mocha -r ts-node/register -r ignore-styles -r jsdom-global/register test/**/*.spec.ts",
     "test-windows": "cross-env TS_NODE_COMPILER_OPTIONS='{ \\\"module\\\": \\\"commonjs\\\" }' mocha -r ts-node/register -r ignore-styles -r jsdom-global/register test/**/*.spec.ts",
