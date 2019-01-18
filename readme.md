@@ -52,3 +52,37 @@ class Example {
   handleChange() {}
 }
 ```
+
+## Advanced Usage
+
+Only bind internal methods.
+
+```js
+import binder from "class-methods-binder";
+
+class Example {
+  constructor() {
+    binder(this, { internal: ["handleClick"] });
+  }
+
+  handleClick() {}
+
+  handleChange() {}
+}
+```
+
+Bind only those that are not external methods.
+
+```js
+import binder from "class-methods-binder";
+
+class Example {
+  constructor() {
+    binder(this, { external: ["handleClick"] });
+  }
+
+  handleClick() {}
+
+  handleChange() {}
+}
+```
