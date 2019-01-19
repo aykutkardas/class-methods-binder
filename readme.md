@@ -12,7 +12,7 @@ The standard way to bind the method.
 
 ```js
 class Example {
-  consturctor() {
+  constructor() {
     this.handleClick = this.handleClick.bind(this);
     this.handleChange = this.handleChange.bind(this);
   }
@@ -27,7 +27,7 @@ Non-standard way to bind the method.
 
 ```js
 class Example {
-  consturctor() {}
+  constructor() {}
 
   handleClick = () => {};
 
