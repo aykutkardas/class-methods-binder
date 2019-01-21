@@ -50,7 +50,16 @@ const classMethodBinder: BinderFunction = (self, options) => {
           self[method] = self[method].bind(self);
         }
       });
+
+    return;
   }
+
+  methods.forEach(method => {
+    const checkMethod = self[method] && typeof self[method] === "function";
+    if (checkMethod) {
+      self[method] = self[method].bind(self);
+    }
+  });
 };
 
 export default classMethodBinder;
