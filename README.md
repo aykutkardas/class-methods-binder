@@ -47,9 +47,9 @@ class Example {
     binder(this);
   }
 
-  handleClick() {}
+  handleClick() {} // bind
 
-  handleChange() {}
+  handleChange() {} // bind
 }
 ```
 
@@ -65,7 +65,7 @@ class Example {
     binder(this, { internal: ["handleClick"] });
   }
 
-  handleClick() {}
+  handleClick() {} // bind
 
   handleChange() {}
 }
@@ -83,6 +83,6 @@ class Example {
 
   handleClick() {}
 
-  handleChange() {}
+  handleChange() {} // bind
 }
 ```
