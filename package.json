@@ -25,7 +25,7 @@
     "ignore-styles": "^5.0.1",
     "jsdom": "^13.0.0",
     "jsdom-global": "^3.0.2",
-    "mocha": "^5.2.0",
+    "mocha": "^8.2.1",
     "ts-node": "^7.0.1",
     "typescript": "^3.1.6"
   },
